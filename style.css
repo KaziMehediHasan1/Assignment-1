@@ -1,0 +1,30 @@
+/* body part */
+body {
+    /* margin: 0; */
+    padding: 0;
+
+}
+
+/* first banner */
+.first-banner {
+    display: flex;
+    background-image: url("image/Banne-Image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    /* background-image: url("image/rectangle.png"); */
+    justify-content: center;
+    width: 1420px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#first-all-head {
+    color: #FFF;
+    text-align: center;
+
+}
+
+.newyear-head4 {
+    margin: 150px 300px;
+    font-size: 40px;
+}
