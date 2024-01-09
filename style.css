@@ -14,6 +14,7 @@ body {
 #first-banner {
     background-image: url("image/Banne-Image.png");
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 15px;
     width: 1420px;
     height: 598px;
@@ -100,6 +101,7 @@ body {
 #second-banner-container {
     background-image: url("image/Vector.png");
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 15px;
     width: 1420px;
     height: 598px;
@@ -192,46 +194,73 @@ body {
 
 
 #gift-photo {
-    width:1450;
-    height:465px;
+    max-width:1420px;
+    height:464px;
     border-radius: 15px;
     position:relative;
-    margin: 400px 110px 0 212px;
+    margin:350px auto 0;
 
 }
 
+
+
 .shop-image1{
-    margin-right:28px;
+    margin-right:67px;
+    
 }
 
 .shop-image2{
-    margin-right:28px;
+    margin-right:67px;
+    
 }
 
-.shop-image{
-    width:1450;
-    height:465px;
+
+#shop-image-container{
+    max-width:1420px;
+    height:464px;
     border-radius: 15px;
     position:relative;
-    margin:25px 110px 0 212px;
+    margin:80px auto 80px;
+    position:relative;
 }
 
 .shop-image4{
-    margin-right:28px;
-}
-.shop-image5{
-    margin-right:28px;
+    margin-right:67px
 }
 
+.shop-image5{
+    margin-right:67px
+}
 /* Newsletter */
 
 #main-newsletter-part{
     background-color:  rgba(255, 0, 0, 0.05);
     background-repeat: no-repeat;
     width:1450px;
-    height:465px;
+    height:665px;
     margin:0 auto;
+    border-radius:15px;
 }
+
+.newsletter-child{
+    display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+}
+
+.user-mail{
+    background-color: #FFF;
+    border-radius: 40px;
+    width:600px;
+    height:60px;
+}
+
+.user-mail > p{
+    text-align:center;
+}
+/* Footer part */
+
 
 #first-footer{
     background-color:#070211;
