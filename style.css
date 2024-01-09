@@ -134,21 +134,21 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    margin-top:80px;
-    margin-left:110px;
+    margin-top: 80px;
+    margin-left: 110px;
 }
 
-#tow-thausand-towenty-four{
-    display:flex;
+#tow-thausand-towenty-four {
+    display: flex;
     justify-content: center;
-    position:relative;
-    bottom:0px;
+    position: relative;
+    bottom: 0px;
 }
 
-#tow-thausand-towenty-four > img{
-    position:absolute;
-    left:850px;
-    
+#tow-thausand-towenty-four>img {
+    position: absolute;
+    left: 850px;
+
 }
 
 /* Our Awesome Portfolio */
@@ -194,123 +194,167 @@ body {
 
 
 #gift-photo {
-    max-width:1420px;
-    height:464px;
+    max-width: 1420px;
+    height: 464px;
     border-radius: 15px;
-    position:relative;
-    margin:350px auto 0;
+    position: relative;
+    margin: 350px auto 0;
 
 }
 
 
 
-.shop-image1{
-    margin-right:67px;
-    
+.shop-image1 {
+    margin-right: 67px;
+
 }
 
-.shop-image2{
-    margin-right:67px;
-    
+.shop-image2 {
+    margin-right: 67px;
+
 }
 
 
-#shop-image-container{
-    max-width:1420px;
-    height:464px;
+#shop-image-container {
+    max-width: 1420px;
+    height: 464px;
     border-radius: 15px;
-    position:relative;
-    margin:80px auto 80px;
-    position:relative;
+    position: relative;
+    margin: 80px auto 80px;
+    position: relative;
 }
 
-.shop-image4{
-    margin-right:67px
+.shop-image4 {
+    margin-right: 67px
 }
 
-.shop-image5{
-    margin-right:67px
+.shop-image5 {
+    margin-right: 67px
 }
+
 /* Newsletter */
 
-#main-newsletter-part{
-    background-color:  rgba(255, 0, 0, 0.05);
+#main-newsletter-part {
+    background-color: rgba(255, 0, 0, 0.05);
     background-repeat: no-repeat;
-    width:1450px;
-    height:665px;
-    margin:0 auto;
-    border-radius:15px;
+    width: 1450px;
+    height: 665px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
-.newsletter-child{
+.newsletter-child {
     display: flex;
-   flex-direction:column;
-   justify-content: center;
-   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    position: relative;
 }
 
-.user-mail{
+.newsletter-child>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter-child>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 270px;
+}
+
+.user-mail {
     background-color: #FFF;
     border-radius: 40px;
-    width:600px;
-    height:60px;
+    width: 600px;
+    height: 58px;
+    position: absolute;
+    top: 370px;
 }
 
-.user-mail > p{
-    text-align:center;
+.user-mail>p {
+    position: absolute;
+    bottom: 2px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+
 }
+
+.subscriber-main {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 160px;
+    height: 58px;
+    margin-left: auto;
+
+
+}
+
+.subscriber {
+    color: white;
+    text-align: center;
+}
+
 /* Footer part */
 
 
-#first-footer{
-    background-color:#070211;
-    margin-top:80px;
-    height:700px;
-    position:relative;
+#first-footer {
+    background-color: #070211;
+    margin-top: 80px;
+    height: 700px;
+    position: relative;
 }
 
-.footer-paragraph1{
-    position:absolute;
-    top:110px;
-    left:130px;
-    color:white;
-    display:inline-block;
-    font-size:xx-large;
-    
-}
-
-
-#call-icon{
-    position:absolute;
-    left:130px;
-    color:white;
-    display:inline-block;
-    font-size:larger;
-    top:150px;
-    left:1300px;
-}
-#web-icon{
-    position:absolute;
-    left:130px;
-    color:white;
-    display:inline-block;
-    font-size:larger;
-    top:190px;
-    left:1300px;
-}
-
-
-.footer-paragraph2{
-    position:absolute;
-    left:130px;
-    color:white;
-    display:inline-block;
-    font-size:larger;
-    top:400px;
-}
-
-.hr-line{
+.footer-paragraph1 {
     position: absolute;
-    color:white;
-    top:290px;
+    top: 110px;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: xx-large;
+
+}
+
+
+#call-icon {
+    position: absolute;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    top: 150px;
+    left: 1300px;
+}
+
+#web-icon {
+    position: absolute;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    top: 190px;
+    left: 1300px;
+}
+
+
+.footer-paragraph2 {
+    position: absolute;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    top: 400px;
+}
+
+.hr-line {
+    position: absolute;
+    color: white;
+    top: 290px;
 }
