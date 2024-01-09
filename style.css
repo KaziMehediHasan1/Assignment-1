@@ -151,6 +151,18 @@ body {
 
 /* Our Awesome Portfolio */
 
+#portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-article {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+
+}
 
 .gift-paragraph1 {
     color: #F00;
@@ -178,69 +190,98 @@ body {
     position: absolute;
 }
 
-#portfolio {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.portfolio-article {
-    position: absolute;
-    top: 50px;
-    left: 300px;
-
-}
 
 #gift-photo {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    width:1450;
+    height:465px;
     border-radius: 15px;
-}
-
-.gift-photo-positioning {
-    position: absolute;
-    margin: 400px auto 0 auto;
-}
-
-#shop-image-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-
+    position:relative;
+    margin: 400px 110px 0 212px;
 
 }
 
-.shop-image2 {
-    position: absolute;
-    top: 880px;
+.shop-image1{
+    margin-right:28px;
+}
+
+.shop-image2{
+    margin-right:28px;
+}
+
+.shop-image{
+    width:1450;
+    height:465px;
+    border-radius: 15px;
+    position:relative;
+    margin:25px 110px 0 212px;
+}
+
+.shop-image4{
+    margin-right:28px;
+}
+.shop-image5{
+    margin-right:28px;
 }
 
 /* Newsletter */
 
-#subscribe-section {
-    display: flex;
-    justify-content: center;
-
-    border-radius: 15px;
-    text-align: center;
-
-
-
+#main-newsletter-part{
+    background-color:  rgba(255, 0, 0, 0.05);
+    background-repeat: no-repeat;
+    width:1450px;
+    height:465px;
+    margin:0 auto;
 }
 
-.subscribe-child {
-    width: 1420px;
-    height: 700px;
-    background-color: rgba(255, 0, 0, 0.05);
+#first-footer{
+    background-color:#070211;
+    margin-top:80px;
+    height:700px;
+    position:relative;
 }
 
-.subscribe {
-    font-weight: bolder;
-    font-size: 700;
+.footer-paragraph1{
+    position:absolute;
+    top:110px;
+    left:130px;
+    color:white;
+    display:inline-block;
+    font-size:xx-large;
+    
 }
 
-.subscribe-paragraph {
-    padding: 150px;
 
+#call-icon{
+    position:absolute;
+    left:130px;
+    color:white;
+    display:inline-block;
+    font-size:larger;
+    top:150px;
+    left:1300px;
+}
+#web-icon{
+    position:absolute;
+    left:130px;
+    color:white;
+    display:inline-block;
+    font-size:larger;
+    top:190px;
+    left:1300px;
+}
+
+
+.footer-paragraph2{
+    position:absolute;
+    left:130px;
+    color:white;
+    display:inline-block;
+    font-size:larger;
+    top:400px;
+}
+
+.hr-line{
+    position: absolute;
+    color:white;
+    top:290px;
 }
