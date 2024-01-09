@@ -97,6 +97,57 @@ body {
     text-align: center;
 }
 
+
+/* Date time section */
+
+#date-time{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1420px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 15px;
+    position:relative;
+
+}
+
+.place{
+    position:absolute;
+    top:130px;
+    left:570px;
+    font-size:xx-large;
+
+
+}
+.Date{
+    position:absolute;
+    top:180px;
+    left:520px;
+    font-size:xx-large;
+}
+
+.time{
+    position:absolute;
+    top:235px;
+    left:490px;
+    font-size:xx-large;
+}
+
+#date-time > button{
+    background-color: #F00;
+    position:absolute;
+    top:420px;
+    left:630px;
+    font-size:x-large;
+    border-radius:8px;
+    padding: 12px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date-time-clr{
+    color:#F00;
+}
+
 /* Midnight party */
 
 #second-banner-container {
@@ -212,7 +263,6 @@ body {
 
 .shop-image1 {
     margin-right: 67px;
-
 }
 
 .shop-image2 {
@@ -247,6 +297,7 @@ body {
     height: 665px;
     margin: 0 auto;
     border-radius: 15px;
+    
 }
 
 .newsletter-child {
@@ -254,9 +305,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
-    position: relative;
+    position:relative;
+
 }
+
+
 
 .newsletter-child>h2 {
     color: #070211;
@@ -284,7 +337,6 @@ body {
 
 .user-mail>p {
     position: absolute;
-    bottom: 2px;
     margin-left: 30px;
     font-family: 'Roboto', sans-serif;
     color: rgba(7, 2, 17, 0.30);
@@ -298,8 +350,8 @@ body {
     background: #F00;
     width: 160px;
     height: 58px;
-    margin-left: auto;
-
+    position: absolute;
+    left:470px;
 
 }
 
@@ -326,6 +378,7 @@ body {
     display: inline-block;
     font-size: xx-large;
 
+
 }
 
 
@@ -338,6 +391,27 @@ body {
     top: 150px;
     left: 1300px;
 }
+
+.phone{
+    position: absolute;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    top: 132px;
+    left: 1340px;
+}
+
+.programminghero{
+    position: absolute;
+    left: 130px;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    top: 172px;
+    left: 1340px;
+}
+
 
 #web-icon {
     position: absolute;
@@ -359,8 +433,23 @@ body {
     top: 400px;
 }
 
-.hr-line {
+#sm-icon-main{
+    margin:0 auto;
+    position:relative;
+}
+
+.sm-icon-style{
+    position:absolute;
+    top:285px;
+    left:40%;
+
+}
+
+.Unsubscribe{
     position: absolute;
+    left: 1420px;
     color: white;
-    top: 290px;
+    display: inline-block;
+    font-size: larger;
+    top: 420px;
 }
