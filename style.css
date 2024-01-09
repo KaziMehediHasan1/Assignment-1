@@ -1,5 +1,8 @@
 /* body part */
-* { border: 1px solid red; }
+* {
+    border: 1px solid red;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,53 +17,67 @@ body {
     border-radius: 15px;
     width: 1420px;
     height: 598px;
-    margin: 30px auto 0 auto;
-    position:relative;
+    margin: 80px auto;
 
 }
 
-.first-banner2{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),;
+.first-banner2 {
+    /* background-image: linear-gradient(to left, #070211 0%, rgba(7, 2, 17, 0.00) 50%),; */
     background-repeat: no-repeat;
     border-radius: 15px;
     width: 1420px;
     height: 598px;
-    margin: 30px auto 0 auto;
-    
-    
-}
-#first-all-head {
-    color: #FFF;
-    background-color: rgb(0, 0, 0, 0, );
-    position:absolute;
+    display: flex;
+    justify-content: center;
 
 }
 
+.new-year1 {
+    position: absolute;
+    font-size: larger;
+    color: white;
+    margin: 150px auto;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
 
+.new-year2 {
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 220px auto;
+    font-family: 'Merriweather', serif;
+
+}
 
 /* all categories */
-
-#all-categories {
-    text-align: center;
-    width:1320px;
-    height:800px;
-    margin-right:auto;
-    margin-left:auto;
-}
-
 .off {
+    text-align: center;
     font-size: 60px;
     color: #F00;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    margin: 60px auto;
 
+
+}
+
+.categories-article {
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .holiday-deals {
     color: #F00;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-top: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 
 }
@@ -70,70 +87,69 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    line-height: normal;
+    text-align: center;
 }
 
 .new-year-photo {
-    width: 700px;
-    height: 450;
-    margin-bottom: 100px;
+    margin: 60px auto;
+    text-align: center;
 }
 
 /* Midnight party */
 
-#second-banner {
+#second-banner-container {
     background-image: url("image/Vector.png");
     background-repeat: no-repeat;
     border-radius: 15px;
     width: 1420px;
     height: 598px;
-    margin: 0 auto;
+    margin: 20px auto;
 
 }
 
-.welcome-to-party {
-    padding: 50px;
-    color: white;
+.party-paragraph {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 6.01px;
+    margin: 100px 0 40px 110px;
 }
 
-.welcome-to-party > h1 {
-    font-size: 70px;
-}
-
-#tow-thausand-towenty-four1{
-    width: 360px;
-    height: 480px;
-    display:flex;
-    justify-content:center;
-    position:relative;
-    
-}
-
-.tow-thausand-towenty-four2{
-    position:absolute;
-    bottom:450px;
-    left:850px;
-}
-
-
-.welcome-first-paragraph {
-    font-size: 20px;
+.party-paragraph2 {
     color: rgba(255, 255, 255, 0.80);
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: Inter;
+    font-size: 14px;
     font-weight: 400;
-    padding-right: 550px;
+    line-height: 20px;
+    margin: 0 650px 10px 110px;
 
 }
 
 .join-now {
-    font-size: large;
-    padding: 20px 0 0 40px;
-    margin-top: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:80px;
+    margin-left:110px;
 }
 
+#tow-thausand-towenty-four{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    bottom:0px;
+}
 
-/* Portfolio */
+#tow-thausand-towenty-four > img{
+    position:absolute;
+    left:850px;
+    
+}
+
+/* Our Awesome Portfolio */
 
 
 .gift-paragraph1 {
@@ -164,63 +180,67 @@ body {
 
 #portfolio {
     position: relative;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
-.portfolio-article{
-    position:absolute;
-    top:50px;
-    left:300px;
-    
+.portfolio-article {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+
 }
+
 #gift-photo {
     display: flex;
     justify-content: center;
-    position:relative;
+    position: relative;
     border-radius: 15px;
 }
 
-.gift-photo-positioning{
-    position:absolute;
+.gift-photo-positioning {
+    position: absolute;
     margin: 400px auto 0 auto;
 }
 
-#shop-image-container{
-    display:flex;
+#shop-image-container {
+    display: flex;
     justify-content: center;
-    position:relative;
+    position: relative;
 
 
 }
 
-.shop-image2{
-    position:absolute;
-    top:880px;
+.shop-image2 {
+    position: absolute;
+    top: 880px;
 }
+
 /* Newsletter */
 
-#subscribe-section{
-    display:flex;
+#subscribe-section {
+    display: flex;
     justify-content: center;
-    
-    border-radius: 15px;
-    text-align:center;
 
-    
-    
+    border-radius: 15px;
+    text-align: center;
+
+
+
 }
-.subscribe-child{
+
+.subscribe-child {
     width: 1420px;
     height: 700px;
-    background-color:rgba(255, 0, 0, 0.05);
-}
-.subscribe{
-    font-weight:bolder;
-    font-size:700;
-}
-.subscribe-paragraph{
-    padding:150px;
-
+    background-color: rgba(255, 0, 0, 0.05);
 }
 
+.subscribe {
+    font-weight: bolder;
+    font-size: 700;
+}
+
+.subscribe-paragraph {
+    padding: 150px;
+
+}
